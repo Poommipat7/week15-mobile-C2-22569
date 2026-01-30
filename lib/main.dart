@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_week15/home.dart';
+import 'package:flutter_week15/view/column_page.dart';
 
 
 void main() {
@@ -11,6 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomeScreen());
+    return MaterialApp(home: ColumnPage());
   }
 }
